@@ -12,16 +12,24 @@ body {
 #root,
 #react-org-chart {
   margin: 0;
+  padding: 0;
   cursor: move;
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  background-color: #f7f9fa;
+  background: linear-gradient(to bottom, #2eefdf, #e870d4);
+  /* background-image: url(./assets/sissy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 .org-chart-person-name {
   font-weight: 500;
 }
 .org-chart-person-link:hover g {
   fill: #409cf9 !important;
+}
+.org-chart-node:hover {
+  background: #26c6da !important;
 }
 .org-chart-node:hover .org-chart-person-reports {
   fill: #409cf9 !important;

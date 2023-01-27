@@ -7,7 +7,7 @@ export const tree = {
     avatar: avatarPersonnel,
     department: '',
     name: 'Appu sankonatti',
-    title: 'Head of family!',
+    title: 'Sushila Sankonatti',
     totalReports: 5,
   },
   hasChild: true,
@@ -23,7 +23,7 @@ export const tree1 = [
       avatar: avatarPersonnel,
       department: '',
       name: 'Ashok Sankonatti',
-      title: 'Farmer',
+      title: 'Sujata Sankonatti',
       totalReports: 3,
     },
     hasChild: true,
@@ -37,7 +37,7 @@ export const tree1 = [
       avatar: avatarPersonnel,
       department: '',
       name: 'Suresh Sankonatti',
-      title: 'Farmer',
+      title: 'Shala Sankonatti',
       totalReports: 4,
     },
     hasChild: true,
@@ -51,7 +51,7 @@ export const tree1 = [
       avatar: avatarPersonnel,
       department: '',
       name: 'Ningappa Sankonatti',
-      title: 'Farmer',
+      title: 'Sarojani Sankonatti',
       totalReports: 6,
     },
     hasChild: true,
@@ -65,7 +65,7 @@ export const tree1 = [
       avatar: avatarPersonnel,
       department: '',
       name: 'Shreekant Sankonatti',
-      title: 'Farmer',
+      title: 'Surekha Sankonatti',
       totalReports: 4,
     },
     hasChild: true,
@@ -79,7 +79,7 @@ export const tree1 = [
       avatar: avatarPersonnel,
       department: '',
       name: 'Nishkant Sankonatti',
-      title: 'Farmer',
+      title: 'Suvarna Sankonatti',
       totalReports: 1,
     },
     hasChild: true,
@@ -101,11 +101,10 @@ export const tree2 = [
       department: '',
       name: 'Sheetal Sankonatti',
       title: 'Electrical engineer',
-      totalReports: 0,
-      link: 'https://github.com/unicef/react-org-chart',
+      totalReports: 0
     },
-    hasChild: true,
-    hasParent: true,
+    hasChild: false,
+    hasParent: false,
     // children: [],
   },
   {
@@ -116,8 +115,7 @@ export const tree2 = [
       department: '',
       name: 'Shilpa sankonatti',
       title: 'House wife',
-      totalReports: 0,
-      link: 'https://github.com/unicef/react-org-chart',
+      totalReports: 0
     },
     hasChild: true,
     hasParent: true,
@@ -132,45 +130,12 @@ export const tree2 = [
       name: 'sammed.sankonatti',
       title: 'Software developer',
       totalReports: 0,
-      link: 'https://github.com/unicef/react-org-chart',
     },
     hasChild: true,
     hasParent: true,
     children: [],
   }
 ]
-
-export const tree3 = [
-  {
-    id: 70,
-    person: {
-      id: 70,
-      avatar: avatarPersonnel,
-      department: '',
-      name: 'Kenneth dom',
-      title: 'IT Officer',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [],
-  },
-  {
-    id: 45,
-    person: {
-      id: 45,
-      avatar: avatarPersonnel,
-      department: '',
-      name: 'Kin baker',
-      title: 'IT Officer',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [],
-  },
-]
-
 
 //ningappa family members
 export const tree4 = [
@@ -209,7 +174,7 @@ export const tree4 = [
       avatar: avatarPersonnel,
       department: '',
       name: 'kanchana Sankonatti',
-      title: '2nd PUC',
+      title: '2nd PUC done',
       totalReports: 0,
     },
     hasChild: true,

@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import OrgChart from '@unicef/react-org-chart'
 import { BrowserRouter, Route } from 'react-router-dom'
-import { tree, tree1, tree2, tree3, tree4, tree5,tree6, tree7 } from './Tree'
+import { tree, tree1, tree2, tree4, tree5,tree6, tree7 } from './Tree'
 import avatarPersonnel from './assets/avatar-personnel.svg'
 
 export default class App extends React.Component {
@@ -25,8 +25,6 @@ export default class App extends React.Component {
         return tree2
       case 37:
         return tree5
-      case 56:
-        return tree3
       case 25:
         return tree4
       case 26:
@@ -98,7 +96,7 @@ export default class App extends React.Component {
       <BrowserRouter basename="/react-org-chart">
         <Route exact path="/">
           <React.Fragment>
-            <h1 style={{color:"blue",display:"flex", alignItems:"center", justifyContent:"center"}}>ಸಂಕೊನಟ್ಟಿ ಕುಟುಂಬ</h1>
+            <h1 style={{color:"purple",display:"flex", alignItems:"center", justifyContent:"center"}}>ಸಂಕೊನಟ್ಟಿ ಕುಟುಂಬ</h1>
             <OrgChart
               tree={tree}
               downloadImageId={downloadImageId}
